@@ -1,0 +1,81 @@
+    1  pwd
+    2  echo ~
+    3  cd ..
+    4  cd
+    5  cd ..
+    6  cleAR
+    7  clear
+    8  cd Desktop
+    9  cd home
+   10  cd desktop
+   11  tree
+   12  cd
+   13  clear
+   14  tree
+   15  mkdir lap2
+   16  tree
+   17  cd lap2
+   18  mkdir ex1, ex2
+   19  tree
+   20  rm ex1,
+   21  em -r ex1,
+   22  rm -rf ex1,
+   23  tree
+   24  mkdir ex1
+   25  tree
+   26  cd ex1
+   27  mkdir etc home ex1_command_history.txt
+   28  tree
+   29  rm -rf ex1_command_history.txt
+   30  tree
+   31  touch ex1_command_history.txt
+   32  tree
+   33  cd etc
+   34  mkdir network systemd udev
+   35  tree
+   36  mkdir /network/interfaces
+   37  cd network
+   38  touch interfaces
+   39  tree
+   40  cd ..
+   41  cd systemd
+   42  touch resolved.conf system.conf user.config
+   43  tree
+   44  mkdir system user
+   45  tree
+   46  cd udev
+   47  cd ..
+   48  cd udev
+   49  mkdir rules.d
+   50  touch udev.conf
+   51  tree
+   52  cd ..
+   53  cd home
+   54  mkdir host+found user
+   55  tree
+   56  cd user
+   57  mkdir documents
+   58  cd ..
+   59  tree
+   60  cd ex1
+   61  touch result1.txt
+   62  cd
+   63  lap2
+   64  cd lap2
+   65  cd ex2
+   66  touch ex2_command_history.txt
+   67  cd ..
+   68  tree
+   69  clear
+   70  tree
+   71  histroy
+   72  cd ex1
+   73  cd
+   74  history > lap2/ex1_command_history.txt
+   75  tree
+   76  cd lap2
+   77  cat ex1_command_history.txt
+   78  rm -f ex1_command_history.txt
+   79  tree
+   80  cd
+   81  history > lap2/ex1/ex1_command_history.txt

@@ -1,0 +1,67 @@
+.
+├── Desktop
+│   └── TPOS
+├── Document
+│   └── TP01
+│       └── file.txt
+├── file1
+├── lab1
+│   ├── commands_history.txt
+│   └── LabFiles
+│       ├── doc1.txt
+│       └── doc2.txt
+├── lab3
+│   ├── CopyingFolder
+│   │   ├── copied.txt
+│   │   ├── five.txt
+│   │   ├── four.txt
+│   │   ├── one.txt
+│   │   ├── three.txt
+│   │   └── two.txt
+│   ├── Desktop
+│   │   ├── CopyingFolder
+│   │   │   ├── copied.txt
+│   │   │   ├── five.txt
+│   │   │   ├── four.txt
+│   │   │   ├── one.txt
+│   │   │   ├── three.txt
+│   │   │   └── two.txt
+│   │   └── FrenchFolder
+│   ├── Documents
+│   │   ├── copied.txt
+│   │   ├── EmptyFolder
+│   │   │   └── deletefile.txt
+│   │   ├── five.txt
+│   │   ├── four.txt
+│   │   ├── one.txt
+│   │   ├── three.txt
+│   │   └── two.txt
+│   ├── history
+│   ├── MoveFolder
+│   └── tree_struct_before_remove.txt
+├── lap2
+│   ├── ex1
+│   │   ├── etc
+│   │   │   ├── network
+│   │   │   │   └── interfaces
+│   │   │   ├── systemd
+│   │   │   │   ├── resolved.conf
+│   │   │   │   ├── system
+│   │   │   │   ├── system.conf
+│   │   │   │   ├── user
+│   │   │   │   └── user.config
+│   │   │   └── udev
+│   │   │       ├── rules.d
+│   │   │       └── udev.conf
+│   │   ├── ex1_command_history.txt
+│   │   ├── home
+│   │   │   ├── host+found
+│   │   │   └── user
+│   │   │       └── documents
+│   │   └── result1.txt
+│   └── ex2
+│       ├── ex2_command_history.txt
+│       └── ex2_coomand_history.txt
+└── tree_struct_before_remove.txt
+
+29 directories, 36 files

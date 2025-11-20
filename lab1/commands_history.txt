@@ -1,0 +1,54 @@
+    1  ls
+    2  cd
+    3  lsb_release -a
+    4  ls
+    5  whoami
+    6  mkdir lab1
+    7  ls
+    8  touch lab1
+    9  ls
+   10  touch file1
+   11  ls
+   12  sudo su
+   13  ls
+   14  cd /home/gic-rin-nairith
+   15  cd /home/gic-rin-nairith/
+   16  whoami
+   17  pwd
+   18  history
+   19  echo $HISTSIZ
+   20  echo $HISTSIZE
+   21  echo $USER
+   22  echo $PATH
+   23  clear
+   24  man
+   25  man man
+   26  man mkdir
+   27  cd lab1
+   28  ls
+   29  mkdir LabFiles
+   30  ls
+   31  cd LabFiles
+   32  touch doc1.txt doc2.txt
+   33  ls
+   34  tree lab1
+   35  tree
+   36  pwd
+   37  whoami
+   38  pwd
+   39  echo $HISTSIZE
+   40  history
+   41  history | tail -n 5
+   42  echo $HISTSIZE
+   43  echo $PATH
+   44  echo "HOME=$HOME | USER=$USER | PATH=$PATH | SHELL=$SHELL | PWD=$PWD"
+   45  cd
+   46  home
+   47  history  > lab1/commands_history.txt
+   48  ls
+   49  cd lab1
+   50  cd
+   51  history > lab1/commands_history.txt
+   52  ls
+   53  tree
+   54  history  > lab1/commands_history.txt

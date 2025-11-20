@@ -1,0 +1,123 @@
+    1  clear
+    2  tree
+    3  mkdir lab3
+    4  tree
+    5  cd lap3
+    6  cd lab3
+    7  mkdir copyingFolder Desktop Documents 
+    8  tree
+    9  cp copyingFolder CopyingFolder
+   10  cp -r copyingFolder CopyingFolder
+   11  tree
+   12  rm -r copyingFolder
+   13  tree
+   14  touch copied.txt
+   15  cp copied.txt /Documents
+   16  cp copied.txt Documents
+   17  tree
+   18  cd Documents
+   19  touch {one,two,three, four, five}.txt
+   20  tree
+   21  cd
+   22  rm -r lab3
+   23  tree
+   24  mkdir lab3
+   25  cd lab3
+   26  mkdir CopyingFolder Documents Desktop
+   27  tree
+   28  touch copied.txt
+   29  tree
+   30  cp copied.txt Documents
+   31  tree
+   32  touch {one,two,three,four,five}.txt
+   33  tree
+   34  mv {one,two,three,four,five}.txt Documents
+   35  tree
+   36  cd Documents 
+   37  cp *.txt CopyingFolder
+   38  cd
+   39  cp *.txt CopyingFolder
+   40  cp *.txt CopyingFolder/
+   41  cp *txt CopyingFolder/
+   42  cp *.txt ../CopyingFolder/
+   43  tree
+   44  cd lab3
+   45  cp *.txt /CopyingFolder/
+   46  cp *.txt CopyingFolder
+   47  tree
+   48  cd Documents
+   49  cp *.txt ../CopyingFolder
+   50  tree
+   51  cd
+   52  lab3
+   53  cd lab3
+   54  tree
+   55  cp CopyingFolder Desktop
+   56  cp -r CopyingFolder Desktop
+   57  tree
+   58  cd Documents
+   59  touch {one,two,three,four,five}_document.txt
+   60  tree
+   61  sudo nano
+   62  nano
+   63  cat one_document.txt
+   64  nano
+   65  tree
+   66  cat {one,two,three,four,five}_document.txt
+   67  mv one_document.txt document_un.txt
+   68  mv two_document.txt document_deux.txt
+   69  mv three_document.txt document_trois.txt
+   70  mv four_document.txt document_quarte.txt
+   71  mv five_document.txt document_cinq.txt
+   72  tree
+   73  cd
+   74  lab3
+   75  cd lab3
+   76  mkdir MoveFolder
+   77  tree
+   78  mv *.txt MoveFolder
+   79  tree
+   80  cd Documents
+   81  mv document_{un,deux,trois,quarte,cinq}.txt MoveFolder
+   82  mv document_{un,deux,trois,quarte,cinq}.txt ../MoveFolder
+   83  tree
+   84  cd ..
+   85  mkdir Desktop/FrenchFolder
+   86  cd Desktop
+   87  tree
+   88  cd
+   89  lab3
+   90  cd lab3
+   91  cp -r /MoveFolder/* /Desktop/FrenchFolder
+   92  cd MoveFolder
+   93  tree
+   94  rm -r copied.txt
+   95  tree
+   96  cd ..
+   97  cp MoveFolder/*.txt Desktop/FrenchFolder
+   98  tree
+   99  cd Desktop
+  100  rm -r FrenchFolder
+  101  mkdir FrenchFolder
+  102  cd
+  103  cd lab3
+  104  mv MoveFolder/*.txt Desktop/FrenchFolder
+  105  tree
+  106  tree > history
+  107  histroy
+  108  tree > /lab3/tree_struct_before_remove.txt
+  109  touch /lab3/tree_struct_before_remove.txt
+  110  touch tree_struct_before_remove.txt
+  111  tree > tree_struct_before_remove.txt
+  112  cd
+  113  touch tree_struct_before_remove.txt
+  114  tree
+  115  cd lab3
+  116  cat tree_struct_before_remove.txt
+  117  history
+  118  cat tree_struct_before_remove.txt
+  119  ls
+  120  tree
+  121  cd lab3
+  122  tree
+  123  history > tree_struct_before_remove.txt

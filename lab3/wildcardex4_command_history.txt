@@ -1,0 +1,230 @@
+    1  clear
+    2  tree
+    3  mkdir lab3
+    4  tree
+    5  cd lap3
+    6  cd lab3
+    7  mkdir copyingFolder Desktop Documents 
+    8  tree
+    9  cp copyingFolder CopyingFolder
+   10  cp -r copyingFolder CopyingFolder
+   11  tree
+   12  rm -r copyingFolder
+   13  tree
+   14  touch copied.txt
+   15  cp copied.txt /Documents
+   16  cp copied.txt Documents
+   17  tree
+   18  cd Documents
+   19  touch {one,two,three, four, five}.txt
+   20  tree
+   21  cd
+   22  rm -r lab3
+   23  tree
+   24  mkdir lab3
+   25  cd lab3
+   26  mkdir CopyingFolder Documents Desktop
+   27  tree
+   28  touch copied.txt
+   29  tree
+   30  cp copied.txt Documents
+   31  tree
+   32  touch {one,two,three,four,five}.txt
+   33  tree
+   34  mv {one,two,three,four,five}.txt Documents
+   35  tree
+   36  cd Documents 
+   37  cp *.txt CopyingFolder
+   38  cd
+   39  cp *.txt CopyingFolder
+   40  cp *.txt CopyingFolder/
+   41  cp *txt CopyingFolder/
+   42  cp *.txt ../CopyingFolder/
+   43  tree
+   44  cd lab3
+   45  cp *.txt /CopyingFolder/
+   46  cp *.txt CopyingFolder
+   47  tree
+   48  cd Documents
+   49  cp *.txt ../CopyingFolder
+   50  tree
+   51  cd
+   52  lab3
+   53  cd lab3
+   54  tree
+   55  cp CopyingFolder Desktop
+   56  cp -r CopyingFolder Desktop
+   57  tree
+   58  cd Documents
+   59  touch {one,two,three,four,five}_document.txt
+   60  tree
+   61  sudo nano
+   62  nano
+   63  cat one_document.txt
+   64  nano
+   65  tree
+   66  cat {one,two,three,four,five}_document.txt
+   67  mv one_document.txt document_un.txt
+   68  mv two_document.txt document_deux.txt
+   69  mv three_document.txt document_trois.txt
+   70  mv four_document.txt document_quarte.txt
+   71  mv five_document.txt document_cinq.txt
+   72  tree
+   73  cd
+   74  lab3
+   75  cd lab3
+   76  mkdir MoveFolder
+   77  tree
+   78  mv *.txt MoveFolder
+   79  tree
+   80  cd Documents
+   81  mv document_{un,deux,trois,quarte,cinq}.txt MoveFolder
+   82  mv document_{un,deux,trois,quarte,cinq}.txt ../MoveFolder
+   83  tree
+   84  cd ..
+   85  mkdir Desktop/FrenchFolder
+   86  cd Desktop
+   87  tree
+   88  cd
+   89  lab3
+   90  cd lab3
+   91  cp -r /MoveFolder/* /Desktop/FrenchFolder
+   92  cd MoveFolder
+   93  tree
+   94  rm -r copied.txt
+   95  tree
+   96  cd ..
+   97  cp MoveFolder/*.txt Desktop/FrenchFolder
+   98  tree
+   99  cd Desktop
+  100  rm -r FrenchFolder
+  101  mkdir FrenchFolder
+  102  cd
+  103  cd lab3
+  104  mv MoveFolder/*.txt Desktop/FrenchFolder
+  105  tree
+  106  tree > history
+  107  histroy
+  108  tree > /lab3/tree_struct_before_remove.txt
+  109  touch /lab3/tree_struct_before_remove.txt
+  110  touch tree_struct_before_remove.txt
+  111  tree > tree_struct_before_remove.txt
+  112  cd
+  113  touch tree_struct_before_remove.txt
+  114  tree
+  115  cd lab3
+  116  cat tree_struct_before_remove.txt
+  117  history
+  118  cat tree_struct_before_remove.txt
+  119  ls
+  120  tree
+  121  cd lab3
+  122  tree
+  123  history > tree_struct_before_remove.txt
+  124  cd
+  125  rm /lab3/Desktop/FrenchFolder/document_deux.txt
+  126  rm -f /lab3/Desktop/FrenchFolder/document_deux.txt
+  127  tree
+  128  rm -r /lab3/Desktop/FrenchFolder/document_deux.txt
+  129  rm -r lab3/Desktop/FrenchFolder/document_deux.txt
+  130  tree
+  131  cd lab3
+  132  cd Documents
+  133  mkdir emptyFolder
+  134  mv emptyFolder EmptyFolder
+  135  cd EmptyFolder
+  136  touch deletefile.txt
+  137  mkdir DeleteFolder
+  138  rm -r DeleteFolder
+  139  tree
+  140  cd ..
+  141  tree
+  142  cd Desktop
+  143  cd FrenchFolder
+  144  tree
+  145  rm -r *.txt
+  146  tree
+  147  cd..
+  148  cd ..
+  149  history > tree_struct_before_remove.txt
+  150  cat tree_struct_before_remove.txt
+  151  tree > tree_struct_before_remove.txt
+  152  tree
+  153  cd lab3
+  154  tree
+  155  touch wildcardex1_command_history.txt
+  156  history > wildcardex1_command_history.txt
+  157  mkdir wildcard_lab
+  158  cd wildcard_lab
+  159  touch a.txt b.txt ab.txt abc.txt xyz.log data.csv
+  160  ls *.txt
+  161  ls *.log
+  162  ls ?.txt
+  163  cd ..
+  164  mkdir backup
+  165  cd backup
+  166  cd wildcard_lab
+  167  cd ..
+  168  cd wildcard_lab
+  169  cp *.txt ../backup
+  170  cp ???.* ../backup
+  171  rm ?.txt
+  172  rm ~/lab3/backup
+  173  rm ~/lab3/backup/*
+  174  touch file{1..5}.txt
+  175  touch {1,2,3}file.txt
+  176  ls file[1-5].txt
+  177  ls [1-3]file.txt
+  178  cd ..
+  179  tree
+  180  cd lap2
+  181  tree
+  182  mkdir class_activity1
+  183  tree
+  184  cd class_activity1
+  185  nano
+  186  tree
+  187  gcc syscall.c -o syscall
+  188  tree
+  189  ./syscall
+  190  cd
+  191  cd lab3
+  192  mkdir logs
+  193  cd logs
+  194  touch log20230101.txt
+  195  log20230102.txt
+  196  log20230103.txt
+  197  log20230104.txt
+  198  log20230105.txt
+  199  cd 
+  200  cd lap2
+  201  tree
+  202  mv class_activity1 ~
+  203  cd
+  204  tree
+  205  cd lab3
+  206  tree
+  207  cd logs
+  208  touch log20230102.txt log20230103.txt log20230104.txt log20230105.txt
+  209  tree
+  210  ls log202301*.txt
+  211  ls log2023010[13579].txt
+  212  history > ~/lab3/wildcardex3_command_history.txt
+  213  tree
+  214  cd ..
+  215  mkdir link_lab
+  216  cd link _lab
+  217  cd link_lab
+  218  echo "This is the original file." > original.txt
+  219  cat original.txt
+  220  ln -s original.txt symlink.txt
+  221  ls -l
+  222  symlink,txt -> original.txt
+  223  symlink.txt -> original.txt
+  224  ln original.txt hardlink.txt
+  225  ls -li
+  226  echo "More content added." >> original.txt
+  227  cat original.txt
+  228  cat hardlink.txt
+  229  cat symlink.txt
+  230  history > ~/lab3/wildcardex4_command_history.txt

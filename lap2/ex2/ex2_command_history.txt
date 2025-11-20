@@ -1,0 +1,137 @@
+    1  pwd
+    2  echo ~
+    3  cd ..
+    4  cd
+    5  cd ..
+    6  cleAR
+    7  clear
+    8  cd Desktop
+    9  cd home
+   10  cd desktop
+   11  tree
+   12  cd
+   13  clear
+   14  tree
+   15  mkdir lap2
+   16  tree
+   17  cd lap2
+   18  mkdir ex1, ex2
+   19  tree
+   20  rm ex1,
+   21  em -r ex1,
+   22  rm -rf ex1,
+   23  tree
+   24  mkdir ex1
+   25  tree
+   26  cd ex1
+   27  mkdir etc home ex1_command_history.txt
+   28  tree
+   29  rm -rf ex1_command_history.txt
+   30  tree
+   31  touch ex1_command_history.txt
+   32  tree
+   33  cd etc
+   34  mkdir network systemd udev
+   35  tree
+   36  mkdir /network/interfaces
+   37  cd network
+   38  touch interfaces
+   39  tree
+   40  cd ..
+   41  cd systemd
+   42  touch resolved.conf system.conf user.config
+   43  tree
+   44  mkdir system user
+   45  tree
+   46  cd udev
+   47  cd ..
+   48  cd udev
+   49  mkdir rules.d
+   50  touch udev.conf
+   51  tree
+   52  cd ..
+   53  cd home
+   54  mkdir host+found user
+   55  tree
+   56  cd user
+   57  mkdir documents
+   58  cd ..
+   59  tree
+   60  cd ex1
+   61  touch result1.txt
+   62  cd
+   63  lap2
+   64  cd lap2
+   65  cd ex2
+   66  touch ex2_command_history.txt
+   67  cd ..
+   68  tree
+   69  clear
+   70  tree
+   71  histroy
+   72  cd ex1
+   73  cd
+   74  history > lap2/ex1_command_history.txt
+   75  tree
+   76  cd lap2
+   77  cat ex1_command_history.txt
+   78  rm -f ex1_command_history.txt
+   79  tree
+   80  cd
+   81  history > lap2/ex1/ex1_command_history.txt
+   82  tree
+   83  cd lap2/ex1
+   84  cat ex1_command_history.txt
+   85  cd
+   86  ls
+   87  tree
+   88  mkdir Desktop Document
+   89  tree
+   90  cd Desktop
+   91  mkdir TPOS
+   92  tree
+   93  cd
+   94  cd Document
+   95  mkdir TP01
+   96  cd TP01
+   97  touch file.txt
+   98  cs
+   99  cd
+  100  tree
+  101  cd /home/Desktop/TPOS
+  102  cd /root/home/Desktop/TPOS
+  103  clear
+  104  tree
+  105  cd home/Desktop/TPOS
+  106  cd /home/gic-rin-nairith@i4gic-os/Desktop/TPOS
+  107  cd
+  108  cd /home/gic-rin-nairith/desktop/TPOS
+  109  cd /home/gic-rin-nairith/Desktop/TPOS
+  110  cd ../../network
+  111  cd
+  112  cd ../../network
+  113  cd
+  114  clear
+  115  tree
+  116  cd document/TP01
+  117  cd document
+  118  cd Document
+  119  cd TP01
+  120  nano
+  121  nano file.txt
+  122  cat file.txt
+  123  nano file.txt
+  124  vm file.txt
+  125  history  > lap2/ex2/ex2_command_history.txt
+  126  cd
+  127  history > lap2/ex2/ex2_coomand_history.txt
+  128  cd lap2
+  129  cd ex2
+  130  cat ex2_command_history.txt
+  131  cd ..
+  132  cd
+  133  tree
+  134  cp ex2_coomand_history.txt ex2_command_history.txt
+  135  mv ex2_coomand_history.txt ex2_command_history.txt
+  136  cat ex2_coomand_history.txt
+  137  history > lap2/ex2/ex2_command_history.txt
