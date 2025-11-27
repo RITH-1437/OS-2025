@@ -1,0 +1,50 @@
+  127  cat common.h
+  128  gcc -o sender sender.c -lrt
+  129  gcc -o receiver receiver.c -lrt
+  130  ./sender
+  131  ./receiver
+  132  ./receiver > result-mq-ipc.txt
+  133  cd ..
+  134  cd MQ-IPC
+  135  ls
+  136  ./receiver > result-mq-ipc.txt
+  137  cat result-mq-ipc.txt
+  138  gcc -o sender sender.c -lrt
+  139  gcc -o receiver receiver.c -lrt
+  140  ./sender
+  141  ./receiver > result-mq-ipc.txt
+  142  cat result-mq-ipc.txt
+  143  cd ..
+  144  tree
+  145  git init
+  146  git add .
+  147  git remote -v
+  148  git remote remove origin
+  149  git remote add origin  https://github.com/RITH-1437/OS-2025.git
+  150  mkdir class_activity2
+  151  tree
+  152  git add .
+  153  git commit -m "Done with class activity3 and TP"
+  154  git config --global user.email "neyrithneyrith@gmail.com"
+  155  git config --global user.name "RITH-1437"
+  156  git push -u origin main
+  157  tree
+  158  cd lab4
+  159  ls `
+  160  ls ~
+  161  ls -l > ~/lab4/content-sort.txt
+  162  tree
+  163  mv content-sort.txt contents.txt
+  164  tree
+  165  sort ~/lab4/contents.txt > ~/lab4/contents-sorted.txt
+  166  tree
+  167  cat contents-sorted.txt
+  168  tail /etc/passwd >> ~/lab4/Documents/newfile.txt
+  169  mkdir -p ~/lab4/Documents
+  170  tail /etc/passwd > ~/lab4/Documents/newfile.txt
+  171  wc -w ~/lab4/contents.txt > ~/lab4/file2.txt
+  172  head -n 5 /etc/passwd | sort -r > ~/lab4/sorted_head.txt
+  173  tail -n 9 ~/lab4/contents.txt | wc -m > ~/lab4/tail_count.txt
+  174  find /usr/share -name test > ~/lab4/find_results.txt 2>/dev/null
+  175  history | tail -n 50 > ~lab4/commands_history.txt
+  176  history | tail -n 50 > ~/lab4/commands_history.txt
